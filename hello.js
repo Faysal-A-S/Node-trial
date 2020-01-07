@@ -4,6 +4,7 @@ let  url=require('url')
 
 let fs=require('fs')
 
+const PORT=process.env.PORT ||5000
 http.createServer((req,res)=>{
 
     if(req.url==='/favicon.ico'||req.url==='/'){
@@ -23,4 +24,4 @@ http.createServer((req,res)=>{
         res.write(data);
         res.end();
     })
-}).listen(5000);
+}).listen(PORT);
