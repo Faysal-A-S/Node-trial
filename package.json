@@ -1,15 +1,24 @@
 {
   "name": "grtgffdgfdd",
-  "version": "1.0.0",
-  "description": "",
+  "version": "12.14.0",
+  "description": "Simple Web app",
   "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Faysal Ahmed",
+  "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faysal-Student/Node-trial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Faysal-Student/Node-trial/issues"
+  },
+  "homepage": "https://github.com/Faysal-Student/Node-trial#readme"
 }
